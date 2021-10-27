@@ -34,3 +34,12 @@ function getRandomSymbol (){
     // Returning a random number using a random index in the `numbers` string
     return symbols[randomIndex(symbols)];
 }
+
+
+// Object to store all of the character generator functions
+const randomFunctions = {
+    lower: getRandomLower,
+    upper: getRandomUpper,
+    number: getRandomNumber,
+    symbol: getRandomSymbol
+};
