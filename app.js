@@ -35,7 +35,6 @@ function getRandomSymbol (){
     return symbols[randomIndex(symbols)];
 }
 
-
 // Object to store all of the character generator functions
 const randomFunctions = {
     lower: getRandomLower,
@@ -43,3 +42,15 @@ const randomFunctions = {
     number: getRandomNumber,
     symbol: getRandomSymbol
 };
+
+
+// ! Selecting the DOM Elements ! \\ 
+
+const resultEl = document.querySelector(`#result`)
+const clipboardEl = document.querySelector(`#clipboard`)
+const lowercaseEl = document.querySelector(`#lowercase`)
+const uppercaseEl = document.querySelector(`#uppercase`)
+const numbersEl = document.querySelector(`#numbers`)
+const symbolsEl = document.querySelector(`#result`)
+const lengthEl = document.querySelector(`#length`)
+const generateEl = document.querySelector(`#generate`)
