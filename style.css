@@ -11,8 +11,8 @@
 }
 
 body {
-    background-color: rgb(28, 22, 22);
-    color: rgb(217, 215, 181);
+    background-color: rgb(6, 6, 6);
+    color: rgba(4, 255, 0, 0.62);
     font-family: 'Roboto', sans-serif;
     /* Flexbox is used here to center the <div> with the id of #container vertically & horizontally */
     display: flex;
@@ -35,7 +35,7 @@ h2 {
     background-color: rgb(28, 22, 22);
     border: none;
     /* Buttons DO NOT inherit text color. Must apply directly to the element */
-    color: rgb(217, 215, 181);
+    color: rgba(4, 255, 0, 0.62);
     cursor: pointer;
     padding: 8px 12px;
 }
@@ -47,18 +47,23 @@ h2 {
 }
 
 #container {
-    background-color: rgb(79, 79, 74);
+    background-color: rgba(6, 42, 3, 0.84);
     padding: 15px;
     width: 450px;
-    border-radius: 15px;
-    filter: drop-shadow(0px 0px 20px rgb(217, 215, 181));
+    border-radius: 40px;
+    filter: drop-shadow(0px 0px 30px rgb(37, 220, 34));
 }
 
+#result-container {
+    border-radius: 5px;
+    filter: drop-shadow(0px 0px 5px rgb(37, 220, 34));
+}
 
 input {
     accent-color: rgb(28, 22, 22);
     background-color: rgb(28, 22, 22);
-    color: rgb(217, 215, 181);
+    color: rgba(4, 255, 0, 0.62);
+    filter: drop-shadow(0px 0px 5px rgb(37, 220, 34));;
 }
 
 #result-container {
@@ -81,6 +86,7 @@ input {
     width: 100%;
     text-transform: uppercase;
     border-radius: 20px;
+    filter: drop-shadow(0px 0px 5px rgb(37, 220, 34));
 }
 
 
