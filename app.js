@@ -43,7 +43,7 @@ function randomIndex(str){
   
   // Function that returns a random symbol
   function getRandomSymbol(){
-    const symbols = `!@#$%^&*(){}[]=<>/,.`;
+    const symbols = `!@#$%^&*(){}[]=<>/,.£|`;
     // Returning a random symbol using a random index in the "symbols" string
     return symbols[randomIndex(symbols)];
   }
